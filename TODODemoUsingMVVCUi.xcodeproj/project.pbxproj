@@ -13,6 +13,14 @@
 		605579E12590AFD6007C9892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605579E02590AFD6007C9892 /* Assets.xcassets */; };
 		605579E42590AFD6007C9892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605579E32590AFD6007C9892 /* Preview Assets.xcassets */; };
 		605579E72590AFD6007C9892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605579E52590AFD6007C9892 /* LaunchScreen.storyboard */; };
+		605579F02590AFF5007C9892 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605579EF2590AFF5007C9892 /* ToDo.swift */; };
+		605579F52590B13E007C9892 /* ToDoROW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605579F42590B13E007C9892 /* ToDoROW.swift */; };
+		605579FA2590B502007C9892 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605579F92590B502007C9892 /* TodoListView.swift */; };
+		605579FD2590B5EA007C9892 /* StoreDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605579FC2590B5EA007C9892 /* StoreDataFile.swift */; };
+		606C54F02590D1D000A08BEE /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C54EF2590D1D000A08BEE /* TodoListViewModel.swift */; };
+		606C54F32590DE0A00A08BEE /* ShowNewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C54F22590DE0A00A08BEE /* ShowNewTodoView.swift */; };
+		606C54F62590DE3F00A08BEE /* NewTodoviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C54F52590DE3F00A08BEE /* NewTodoviewModel.swift */; };
+		606C54F92590DE7200A08BEE /* NewStoreDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C54F82590DE7200A08BEE /* NewStoreDataFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		605579E32590AFD6007C9892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		605579E62590AFD6007C9892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		605579E82590AFD6007C9892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605579EF2590AFF5007C9892 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		605579F42590B13E007C9892 /* ToDoROW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoROW.swift; sourceTree = "<group>"; };
+		605579F92590B502007C9892 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		605579FC2590B5EA007C9892 /* StoreDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDataFile.swift; sourceTree = "<group>"; };
+		606C54EF2590D1D000A08BEE /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		606C54F22590DE0A00A08BEE /* ShowNewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowNewTodoView.swift; sourceTree = "<group>"; };
+		606C54F52590DE3F00A08BEE /* NewTodoviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoviewModel.swift; sourceTree = "<group>"; };
+		606C54F82590DE7200A08BEE /* NewStoreDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStoreDataFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,10 @@
 		605579D92590AFD4007C9892 /* TODODemoUsingMVVCUi */ = {
 			isa = PBXGroup;
 			children = (
+				606C54EE2590D1B700A08BEE /* ViewModel */,
+				605579FF2590B5F9007C9892 /* StoreData */,
+				605579F32590B0D1007C9892 /* TODoFile */,
+				605579F22590B0BB007C9892 /* Model */,
 				605579DA2590AFD4007C9892 /* AppDelegate.swift */,
 				605579DC2590AFD4007C9892 /* SceneDelegate.swift */,
 				605579DE2590AFD4007C9892 /* ContentView.swift */,
@@ -73,6 +93,42 @@
 				605579E32590AFD6007C9892 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		605579F22590B0BB007C9892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				605579EF2590AFF5007C9892 /* ToDo.swift */,
+				606C54F22590DE0A00A08BEE /* ShowNewTodoView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		605579F32590B0D1007C9892 /* TODoFile */ = {
+			isa = PBXGroup;
+			children = (
+				605579F42590B13E007C9892 /* ToDoROW.swift */,
+				605579F92590B502007C9892 /* TodoListView.swift */,
+			);
+			path = TODoFile;
+			sourceTree = "<group>";
+		};
+		605579FF2590B5F9007C9892 /* StoreData */ = {
+			isa = PBXGroup;
+			children = (
+				605579FC2590B5EA007C9892 /* StoreDataFile.swift */,
+				606C54F82590DE7200A08BEE /* NewStoreDataFile.swift */,
+			);
+			path = StoreData;
+			sourceTree = "<group>";
+		};
+		606C54EE2590D1B700A08BEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				606C54EF2590D1D000A08BEE /* TodoListViewModel.swift */,
+				606C54F52590DE3F00A08BEE /* NewTodoviewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606C54F02590D1D000A08BEE /* TodoListViewModel.swift in Sources */,
 				605579DB2590AFD4007C9892 /* AppDelegate.swift in Sources */,
+				606C54F32590DE0A00A08BEE /* ShowNewTodoView.swift in Sources */,
+				606C54F62590DE3F00A08BEE /* NewTodoviewModel.swift in Sources */,
+				605579F02590AFF5007C9892 /* ToDo.swift in Sources */,
+				605579FD2590B5EA007C9892 /* StoreDataFile.swift in Sources */,
+				605579FA2590B502007C9892 /* TodoListView.swift in Sources */,
+				606C54F92590DE7200A08BEE /* NewStoreDataFile.swift in Sources */,
 				605579DD2590AFD4007C9892 /* SceneDelegate.swift in Sources */,
+				605579F52590B13E007C9892 /* ToDoROW.swift in Sources */,
 				605579DF2590AFD4007C9892 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
